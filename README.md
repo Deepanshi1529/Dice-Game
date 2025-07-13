@@ -30,11 +30,11 @@ here, i have used to change the text content of "h1" element.
 document.querySelector("h1").innerHTML = "text to change into"
 ```
 ## WokFlow of Project
-+ Generation of Random Numbers for Both Players
++ ##Generation of Random Numbers for Both Players 
   using the Math.random() method and setting it's range 1-6, the random numbers (randomNumber1 & randomNumber2) will be generated for each players, whenever their specified dice is tossed.
-+ Setting Attribute of each number
++ ##Setting Attribute of each number
   Each number generated will be associated with their specified image using the setAttribute method.
-+ Setting the necessary conditions
++ ##Setting the necessary conditions
   randomNumber1 comes out to be greater than ranndomNumber2 --> player1 wins
   randomNumber2 comes out to be greater than ranndomNumber1 --> player2 wins
   randomNumber 1 comes out to be equal to randomNumber2 --> draw
