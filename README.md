@@ -35,7 +35,7 @@ document.querySelector("h1").innerHTML = "text to change into"
 + ## Setting Attribute of each number
   Each number generated will be associated with their specified image using the setAttribute method.
 + ## Setting the necessary conditions
-  randomNumber1 comes out to be greater than ranndomNumber2 --> player1 wins
-  randomNumber2 comes out to be greater than ranndomNumber1 --> player2 wins
+  randomNumber1 comes out to be greater than ranndomNumber2 --> player1 wins <br>
+  randomNumber2 comes out to be greater than ranndomNumber1 --> player2 wins <br>
   randomNumber 1 comes out to be equal to randomNumber2 --> draw
 
