@@ -13,7 +13,7 @@ So, i thought why not build it online and check out my luck while playing it.
 + CSS : styling the diffenet components in website
 + JavaScript + D0M : to access and manipulate the document's structure, style and content.
 
-## DOM Methods
+## DOM Methods() : Methods Used in Project
 It will return the first element within the document that matches the specified CSS selector (as a input, it takes elements, class of element, it's id and can also combine the selectors).
 here, it refers to the the first element with the ".img" class and will return it.
 ```
@@ -29,5 +29,13 @@ here, i have used to change the text content of "h1" element.
 ```
 document.querySelector("h1").innerHTML = "text to change into"
 ```
-
+## WokFlow of Project
++ Generation of Random Numbers for Both Players
+  using the Math.random() method and setting it's range 1-6, the random numbers (randomNumber1 & randomNumber2) will be generated for each players, whenever their specified dice is tossed.
++ Setting Attribute of each number
+  Each number generated will be associated with their specified image using the setAttribute method.
++ Setting the necessary conditions
+  randomNumber1 comes out to be greater than ranndomNumber2 --> player1 wins
+  randomNumber2 comes out to be greater than ranndomNumber1 --> player2 wins
+  randomNumber 1 comes out to be equal to randomNumber2 --> draw
 
