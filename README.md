@@ -9,4 +9,25 @@ So, i thought why not build it online and check out my luck while playing it.
 4. But, if both gets the same number then it's a draw.
 
 ## Tech Stack Used
++ HTML : basic structure for the website
++ CSS : styling the diffenet components in website
++ JavaScript + D0M : to access and manipulate the document's structure, style and content.
+
+## DOM Methods
+It will return the first element within the document that matches the specified CSS selector (as a input, it takes elements, class of element, it's id and can also combine the selectors).
+here, it refers to the the first element with the ".img" class and will return it.
+```
+document.querySelector(".img")
+```
+SetAtrribute working on setting the attributs and it generally takes two inputs, the attribute we want to change and what we want to change it to.
+here, it takes attribute "href" as value1 and "link to change into" 
+```
+document.querySelector(".img").SetAttribute("href", "https://meet.google.com/landing")
+```
+It will allow the maipulation of the HTML content within an element. Can be used to retrieve and set HTML content of an element.
+here, i have used to change the text content of "h1" element.
+```
+document.querySelector("h1").innerHTML = "text to change into"
+```
+
 
